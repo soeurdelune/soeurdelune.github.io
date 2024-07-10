@@ -1,0 +1,123 @@
+/* BALISES FUNKY (CUSTOM) */
+
+    /* Censure texte*/
+    tw {
+      filter: blur(3px);
+      transition: filter .3s;
+    }
+    /* Censure image */
+    img.tw {
+      filter: blur(10px);
+      clip-path: inset(0);
+      transition: filter .3s;
+    }
+    /* Retire le floutage au survol */
+    tw:hover, .tw:hover {
+      filter: none;
+    }
+
+
+iron {
+  padding: 0px 2px 0px 2px;
+  font-size: var(--little-size);
+  font-family: var(--fontdeux);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  background: var(--gradient);
+  color: var(--purelight);
+  font-weight: bold;
+  
+}
+
+
+ocean {
+  font-size: var(--little-size);
+  font-family: var(--fontdeux);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: var(--accentClrDark);
+  font-weight: bold;
+}
+
+
+artdeco {
+  font-size: var(--medium-size);
+  font-family: var(--fontquatre);
+  color: var(--contrastLighter);
+}
+
+
+algae {
+    font-weight: bold;
+    background: var(--gradient);
+    -webkit-background-clip: text;
+            background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+credit {
+font-size: 9px; 
+  font-family: var(--font); 
+  text-transform: uppercase; 
+  letter-spacing: 1px;
+}
+
+
+/* IMAGES ARRONDIES */
+
+
+.picrond {
+  text-align: center; 
+  float: left;}
+
+.picrond img {
+  border-radius: 50%; 
+  width: 110px; 
+  height: 110px; 
+  display: inline-block; 
+  margin-right: 20px; 
+  border: solid 1px var(--contrastLighter);
+  padding: 3px;
+  object-fit: cover;}
+
+
+
+/* BLOC TEXTE */
+
+.fondtexte {
+background-color: var(--neutralDark);
+border: var(--border);
+padding: 20px;
+}
+
+
+
+/* TABLEAU TESSELLES */
+
+.fondtab {
+  height: 220px;
+  overflow: auto;
+  background-color: var(--neutralDark);
+  width: 190px;
+  text-align: justify;
+font-family: var(--small-size);
+margin-left: 4px;
+margin-right: 4px;
+border: var(--border);}
+
+
+  
+
+/* IMAGE RECTANGLE */
+
+.imgrect {
+  max-width: 200px;
+  height: auto;}
+
+.imgrect img {
+  max-width: 200px;
+  height: auto;
+  border: solid 1px var(--contrastLighter);
+  padding: 2px;
+  object-fit: cover;}
