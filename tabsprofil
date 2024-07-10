@@ -1,0 +1,53 @@
+ /* TABS DU PROFIL */
+
+
+.tabz {
+    margin-top:0px;
+    margin-left:0px;
+    width:100%;
+    overflow:hidden;
+    
+}
+
+.tabz a {
+    width:96px;
+    text-align:center;
+    font-family: var(--fontdeux);
+    background-color: var(--neutral); /* tablinks bg color */
+  border: var(--border);
+    color: var(--accentClr); /* tablinks color */
+    text-transform: uppercase;
+  font-size: var(--little-size);
+    display:inline-block;
+    transition:.2s;
+    -webkit-transition:.2s;
+    -moz-transition:.2s;
+}
+
+.tabz a:hover {
+    background-color: var(--neutralDark); /* tablinks hover bg color */
+    color: var(--accentClrDark); /* tablinks hover color */
+    transition:.2s;
+    -webkit-transition:.2s;
+    -moz-transition:.2s;
+}
+
+.tabz a:focus, .active {
+  background: var(--gradient); 
+  color: var(--purelight);
+  font-family: var(--fontdeux);
+}
+
+.tabzcon { 
+    margin-top:10px;
+    margin-left:0px;
+    padding:10px;
+    width:100%;
+    max-height:280px;
+  overflow: auto;
+    background-color: var(--neutralDark);
+  border: var(--border);
+}
+
+
+.plume {}
