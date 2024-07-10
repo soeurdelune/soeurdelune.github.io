@@ -1,3 +1,22 @@
+
+
+/* BALISES DES ANNEXES */
+
+coquille {
+  text-transform: uppercase;
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+  border-bottom: 2px solid var(--contrastLight); 
+  padding: 3px; 
+  font-family: var(--fontdeux); 
+  color: var(--contrastLight); 
+  letter-spacing: 0.5px; 
+  font-weight: bold; }
+
+
+
+
 /* BALISES FUNKY (CUSTOM) */
 
     /* Censure texte*/
