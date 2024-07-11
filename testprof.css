@@ -1,0 +1,53 @@
+/*** ------------------------------- ***/
+/*** PROFIL SYSTEME ONGLET --------------- ***/
+/* .systab .tab => les onglet */
+.systab .tab {
+  padding: 6px 17px; /*contrôle la largeur et longueur des rectangles "onglet 1, 2 et 3"*/
+  margin-left: 4px; /* créée un espace entre les 3 titres d'onglets*/
+ background-color: var(--neutral); /* tablinks bg color */
+  border: var(--border);
+    color: var(--accentClr); /* tablinks color */
+   font-family: var(--fontdeux);
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: var(--little-size);
+  cursor: pointer;
+  transition:.2s;
+    -webkit-transition:.2s;
+    -moz-transition:.2s;
+}
+/* .systab .tab:hover => les onglets survolés */
+.systab .tab:hover {
+  font-family: var(--fontdeux);
+  font-weight: bold;
+  background-color: var(--neutralDark); /* tablinks hover bg color */
+    color: var(--accentClrDark); /* tablinks hover color */
+  transition:.2s;
+    -webkit-transition:.2s;
+    -moz-transition:.2s;
+}
+/* .systab .tab.selected => les onglets sélectionnés */
+.systab .tab.selected{
+  background: var(--gradient); 
+  color: var(--purelight);
+  font-family: var(--fontdeux);
+}
+/* .systab .contents => les conteneurs des contenus associés aux onglets  */
+.systab .contents {
+  margin-bottom: 1px;
+  margin-top: 10px;
+  padding: 10px;
+  max-height:280px;
+  overflow: auto;
+    background-color: var(--neutralDark);
+  border: var(--border);
+}
+/* style des onglets si ils sont à gauche ou à droite */
+.systab.s_float .tab,.systab.s_float .tab {
+  display: block;
+  margin: 5px;
+}
+/* flottement des conteneurs si les onglets sont à gauche où à droite */
+.systab.s_float .tabs,.systab.s_float .contents {
+  float: left;
+}
