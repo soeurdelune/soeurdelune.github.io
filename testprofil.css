@@ -2,7 +2,7 @@
 /*** PROFIL SYSTEME ONGLET --------------- ***/
 /* .systab .tab => les onglet */
 .systab .tab {
-  padding: 4px 15px; /*contrôle la largeur et longueur des rectangles "onglet 1, 2 et 3"*/
+  padding: 4px 17px; /*contrôle la largeur et longueur des rectangles "onglet 1, 2 et 3"*/
   margin-left: 4px; /* créée un espace entre les 3 titres d'onglets*/
  background-color: var(--neutral); /* tablinks bg color */
   border: var(--border);
@@ -35,7 +35,7 @@
 /* .systab .contents => les conteneurs des contenus associés aux onglets  */
 .systab .contents {
   margin-bottom: 1px;
-  top: 10px;
+  margin-top: 10px;
   padding: 10px;
   max-height:280px;
   overflow: auto;
