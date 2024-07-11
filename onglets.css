@@ -2,31 +2,38 @@
 /*** PROFIL SYSTEME ONGLET --------------- ***/
 /* .systab .tab => les onglet */
 .systab .tab {
-  padding: 2px 10px; /*contrôle la largeur et longueur des rectangles "onglet 1, 2 et 3"*/
-  margin-left: 1px; /* créée un espace entre les 3 titres d'onglets*/
-  color: #ccc;
-  background: white;
-  border: 1px solid #ccc;
+  padding: 4px 10px; /*contrôle la largeur et longueur des rectangles "onglet 1, 2 et 3"*/
+  margin-left: 4px; /* créée un espace entre les 3 titres d'onglets*/
+ background-color: var(--neutral); /* tablinks bg color */
+  border: var(--border);
+    color: var(--accentClr); /* tablinks color */
   cursor: pointer;
+  transition:.2s;
+    -webkit-transition:.2s;
+    -moz-transition:.2s;
 }
 /* .systab .tab:hover => les onglets survolés */
 .systab .tab:hover {
-  background: #fff;
-  color: #939393;
-  border-color: #fff;
+  background-color: var(--neutralDark); /* tablinks hover bg color */
+    color: var(--accentClrDark); /* tablinks hover color */
+  transition:.2s;
+    -webkit-transition:.2s;
+    -moz-transition:.2s;
 }
 /* .systab .tab.selected => les onglets sélectionnés */
 .systab .tab.selected{
-  color: #ccc;
-  border:1px solid #ccc;
-  background: #fff;
+  background: var(--gradient); 
+  color: var(--purelight);
+  font-family: var(--fontdeux);
 }
 /* .systab .contents => les conteneurs des contenus associés aux onglets  */
 .systab .contents {
   margin-bottom: 1px;
-  color: #000;
-  background: #fff;
   padding-top:5px;
+  max-height:280px;
+  overflow: auto;
+    background-color: var(--neutralDark);
+  border: var(--border);
 }
 /* style des onglets si ils sont à gauche ou à droite */
 .systab.s_float .tab,.systab.s_float .tab {
