@@ -64,8 +64,8 @@ text-align: justify;
   
 .idpic img {
   padding: 5px 4px;
-    height: 95px;
-    width: 95px;
+  height: 95px;
+  width: 95px;
   }
 
 .player {
@@ -85,7 +85,6 @@ padding: 8px;
 position: relative;
 font-family: var(--fonttrois);
 top: 23px;
-left: 10px;
 color: var(--contrast);
 font-size: 27px;
 font-style: italic;
