@@ -101,4 +101,7 @@ line-height: 17px;
 background-color: var(--neutralDark);
 padding: 5px 20px 20px;
 text-align: left;
+max-height: 550px;
+overflow: auto;
+  
 }
