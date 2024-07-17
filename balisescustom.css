@@ -1,6 +1,4 @@
-
-
-/* BALISES DES ANNEXES */
+/* BALISES DU FORUM */
 
 coquille {
   text-transform: uppercase;
@@ -15,25 +13,13 @@ coquille {
   font-weight: bold; }
 
 
-
-
-/* BALISES FUNKY (CUSTOM) */
-
-    /* Censure texte*/
-    tw {
-      filter: blur(3px);
-      transition: filter .3s;
-    }
-    /* Censure image */
-    img.tw {
-      filter: blur(10px);
-      clip-path: inset(0);
-      transition: filter .3s;
-    }
-    /* Retire le floutage au survol */
-    tw:hover, .tw:hover {
-      filter: none;
-    }
+roche {
+  text-align: left; 
+  font-family: var(--fontcinq); 
+  font-size: 30px; 
+  line-height: 11px; 
+  font-weight: bold;
+}
 
 
 iron {
@@ -70,17 +56,19 @@ algae {
     font-weight: bold;
     background: var(--gradient);
     -webkit-background-clip: text;
-            background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
 
 credit {
 font-size: 9px; 
-  font-family: var(--font); 
-  text-transform: uppercase; 
-  letter-spacing: 1px;
+font-family: var(--font); 
+text-transform: uppercase; 
+letter-spacing: 1px;
 }
+
+
 
 
 /* IMAGES ARRONDIES */
@@ -109,6 +97,31 @@ background-color: var(--neutralDark);
 border: var(--border);
 padding: 20px;
 }
+
+
+/* BALISE TRIGGER */
+
+    /* Censure texte*/
+    tw {
+      filter: blur(3px);
+      transition: filter .3s;
+    }
+    /* Censure image */
+    img.tw {
+      filter: blur(10px);
+      clip-path: inset(0);
+      transition: filter .3s;
+    }
+    /* Retire le floutage au survol */
+    tw:hover, .tw:hover {
+      filter: none;
+    }
+
+/* CODE DE TRADUCTION */
+.original {border-bottom: 2px dotted var(–pink);}
+.translate .original, .translate:hover .tslt {display: inline; }
+.translate:hover .original, .translate .tslt {display: none; }
+
 
 
 
