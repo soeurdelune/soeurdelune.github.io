@@ -46,9 +46,9 @@ ocean {
 
 
 plage {
-  font-size: var(--little-size);
+  font-size: 13px;
   font-family: var(--fontdeux);
-  letter-spacing: 0.5px;
+  letter-spacing: 0.2px;
   color: var(--contrastLighter);
   font-weight: bold;
 }
