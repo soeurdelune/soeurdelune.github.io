@@ -71,7 +71,7 @@ text-align: justify;
 .player {
 float: left;
 height: 98px;
-line-height: 15px;
+line-height: 17px;
 width: 430px;
 background-color: var(--neutralDark);
 border: var(--border);
