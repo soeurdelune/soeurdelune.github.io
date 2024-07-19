@@ -45,6 +45,16 @@ ocean {
 }
 
 
+plage {
+  font-size: var(--little-size);
+  font-family: var(--fontdeux);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: var(--contrastLighter);
+  font-weight: bold;
+}
+
+
 artdeco {
   font-size: var(--medium-size);
   font-family: var(--fontquatre);
