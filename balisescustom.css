@@ -48,7 +48,7 @@ ocean {
 artdeco {
   font-size: var(--medium-size);
   font-family: var(--fontquatre);
-  color: var(--contrastLighter);
+  color: var(--accentClr);
 }
 
 
