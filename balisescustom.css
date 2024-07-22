@@ -162,3 +162,16 @@ border: var(--border);}
   border: solid 1px var(--contrastLighter);
   padding: 2px;
   object-fit: cover;}
+
+/* IMAGES CARRÉES FAÇON MOODBOARD */
+
+.picspan {
+}
+
+.picspan img {
+   padding: 5px; 
+   border: solid 1px var(--contrastLighter); 
+  width: 100px; 
+  height: 100px; 
+object-fit: cover;}
+
