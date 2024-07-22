@@ -107,6 +107,12 @@ border: var(--border);
 padding: 20px;
 }
 
+.fondtextebis {
+background-color: var(--neutral);
+border: var(--border);
+padding: 20px;
+}
+
 
 /* BALISE TRIGGER */
 
