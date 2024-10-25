@@ -105,6 +105,7 @@ letter-spacing: 1px;
 background-color: var(--neutralDark);
 border: var(--border);
 padding: 20px;
+text-align: justify;
 }
 
 .fondtextebis {
