@@ -41,7 +41,7 @@ songe {
   font-family: var(--fontdeux);
   text-transform: uppercase;
   letter-spacing: 0.5px;
-  color: var(--accentClrDark);
+  color: var(--accentClr);
   font-weight: bold;
 }
 
