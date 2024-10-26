@@ -1,0 +1,172 @@
+/* BALISES DU FORUM */
+
+sable {
+  text-transform: uppercase;
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+  border-bottom: 2px solid var(--contrastLight); 
+  padding: 3px; 
+  font-family: var(--fontdeux); 
+  color: var(--contrastLight); 
+  letter-spacing: 0.5px; 
+  font-weight: bold; }
+
+
+marchand {
+  text-align: left; 
+  font-family: var(--fontcinq); 
+  font-size: 30px; 
+  line-height: 11px; 
+  font-weight: bold;
+  color: var(--contrastLight);
+}
+
+
+reverie {
+  padding: 0px 2px 0px 2px;
+  font-size: var(--little-size);
+  font-family: var(--fontdeux);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  background: var(--gradient);
+  color: var(--purelight);
+  font-weight: bold;
+  
+}
+
+
+songe {
+  font-size: var(--little-size);
+  font-family: var(--fontdeux);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: var(--accentClrDark);
+  font-weight: bold;
+}
+
+
+mouton {
+  font-size: 13px;
+  font-family: var(--fontdeux);
+  letter-spacing: 0.2px;
+  color: var(--contrastLighter);
+  font-weight: bold;
+}
+
+
+insomnie {
+  font-size: var(--medium-size);
+  font-family: var(--fontquatre);
+  color: var(--contrastLighter);
+}
+
+
+cosmos {
+    font-weight: bold;
+    background: var(--gradientdeux);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+credit {
+font-size: 9px; 
+font-family: var(--font); 
+text-transform: uppercase; 
+letter-spacing: 1px;
+}
+
+
+
+
+/* IMAGES ARRONDIES */
+
+
+.picrond {
+  text-align: center; 
+  float: left;}
+
+.picrond img {
+  border-radius: 50%; 
+  width: 110px; 
+  height: 110px; 
+  display: inline-block; 
+  margin-right: 20px; 
+  border: solid 1px var(--contrastLighter);
+  padding: 3px;
+  object-fit: cover;}
+
+
+
+/* BLOC TEXTE */
+
+.fondtexte {
+background-color: var(--neutralDark);
+border: var(--border);
+padding: 20px;
+text-align: justify;
+}
+
+.fondtextebis {
+background-color: var(--neutral);
+border: var(--border);
+padding: 20px;
+text-align: justify;
+}
+
+
+/* BALISE TRIGGER */
+
+    /* Censure texte*/
+    tw {
+      filter: blur(3px);
+      transition: filter .3s;
+    }
+    /* Censure image */
+    img.tw {
+      filter: blur(10px);
+      clip-path: inset(0);
+      transition: filter .3s;
+    }
+    /* Retire le floutage au survol */
+    tw:hover, .tw:hover {
+      filter: none;
+    }
+
+/* CODE DE TRADUCTION */
+.original {border-bottom: 2px dotted var(–pink);}
+.translate .original, .translate:hover .tslt {display: inline; }
+.translate:hover .original, .translate .tslt {display: none; }
+
+
+
+
+
+  
+
+/* IMAGE RECTANGLE */
+
+.imgrect {
+  max-width: 200px;
+  height: auto;}
+
+.imgrect img {
+  max-width: 200px;
+  height: auto;
+  border: solid 1px var(--contrastLighter);
+  padding: 2px;
+  object-fit: cover;}
+
+/* IMAGES CARRÉES FAÇON MOODBOARD */
+
+.picspan {
+}
+
+.picspan img {
+   padding: 3px; 
+   border: var(--border); 
+  width: 90px; 
+  height: 90px; 
+object-fit: cover;}
