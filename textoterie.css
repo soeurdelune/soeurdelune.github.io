@@ -1,0 +1,40 @@
+ /* CODE TEXTO */
+
+.bulle {
+  z-index: 999;
+position: relative;
+background: var(--neutralDarker);
+border-radius: .4em;
+width: 520px;
+text-align: left;
+padding: 5px;
+}
+
+.bulle:after {
+content: '';
+position: absolute;
+top: 0;
+left: 50%;
+width: 0;
+height: 0;
+border: 7px solid transparent;
+border-bottom-color: var(--neutralDarker);
+border-top: 0;
+margin-left: -7px;
+margin-top: -7px;
+}
+
+
+.picprof {
+float: left;
+z-index: -99999;}
+
+.picprof img {
+padding: 3px; 
+width: 70px; 
+height: 70px; 
+margin-right: 20px; 
+margin-left: 100px; 
+display: inline-block; 
+border-radius: 50%; 
+border: var(--border);}
