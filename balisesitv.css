@@ -69,6 +69,22 @@ tour {
     -webkit-text-fill-color: transparent;
 }
 
+reine
+{
+  text-align: center; 
+  display: inline; 
+  width: 100%; 
+  color: var(--accentClrDark); 
+  border-bottom: 1px dotted var(--accentClrDark); 
+  padding: 30px; 
+  padding-bottom: 5px; 
+  text-align: center; 
+  text-transform: uppercase; 
+  font-size: 14px; 
+  font-family: var(--fontdeux); 
+  letter-spacing: 1px; 
+  font-weight: bold; } 
+
 
 credit {
 font-size: 9px; 
